@@ -26,10 +26,12 @@ controlTower:
   landingZone:
     version: "3.3"
     logging:
+      account: LogArchive
       loggingBucketRetentionDays: 365
       accessLoggingBucketRetentionDays: 3650
       organizationTrail: true
     security:
+      account: Audit
       enableIdentityCenterAccess: true
 logging:
   account: LogArchive

@@ -21,7 +21,7 @@ mandatoryAccounts:
       The security audit account (also referred to as the audit account). Do not
       change the name field for this mandatory account. Note, the account name
       key does not need to match the AWS account name.
-    email: joelcote+security@joelinthecloud.com
+    email: joelcote+audit@joelinthecloud.com
     organizationalUnit: Security
 workloadAccounts:
   # The "name" will be used to set the AWS Account name

@@ -13,7 +13,7 @@ globalReplacements:
   # Security notification emails
   - key: SecurityHigh
     type: String
-    value: joelcote++high@joelinthecloud.com
+    value: joelcote+high@joelinthecloud.com
   - key: SecurityMedium
     type: String
     value: joelcote+medium@joelinthecloud.com
