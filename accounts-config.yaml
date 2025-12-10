@@ -7,21 +7,21 @@ mandatoryAccounts:
       The management (primary) account. Do not change the name field for this
       mandatory account. Note, the account name key does not need to match the
       AWS account name.
-    email: <management-account>@example.com <----- UPDATE EMAIL ADDRESS
+    email: joelcote@joelinthecloud.com
     organizationalUnit: Root
   - name: LogArchive
     description: >-
       The log archive account. Do not change the name field for this mandatory
       account. Note, the account name key does not need to match the AWS account
       name.
-    email: <log-archive>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: joelcote@joelinthecloud.com
     organizationalUnit: Security
   - name: Audit
     description: >-
       The security audit account (also referred to as the audit account). Do not
       change the name field for this mandatory account. Note, the account name
       key does not need to match the AWS account name.
-    email: <audit>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: joelcote@joelinthecloud.com
     organizationalUnit: Security
 workloadAccounts:
   # The "name" will be used to set the AWS Account name
@@ -29,13 +29,13 @@ workloadAccounts:
   # The "name" value DOES NOT need to match the account name
   - name: Network-Prod
     description: Network Prod
-    email: <network-prod>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: joelcote@joelinthecloud.com
     organizationalUnit: Infrastructure/Infra-Prod
   - name: HIS-Dev
     description: HIS Dev
-    email: <his-dev>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: joelcote@joelinthecloud.com
     organizationalUnit: HIS/HIS-Non-Prod
   - name: EIS-Prod
     description: EIS Prod
-    email: <eis-prod>@example.com  <----- UPDATE EMAIL ADDRESS
+    email: joelcote@joelinthecloud.com
     organizationalUnit: EIS/EIS-Prod
