@@ -9,7 +9,7 @@ globalReplacements:
   # Home Region
   - key: AcceleratorHomeRegion
     type: String
-    value: us-east-1
+    value: us-east-2
   # Security notification emails
   - key: SecurityHigh
     type: String

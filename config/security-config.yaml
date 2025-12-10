@@ -4,7 +4,7 @@
 # https://awslabs.github.io/landing-zone-accelerator-on-aws/classes/_aws_accelerator_config.SecurityConfig.html  #
 ##################################################################################################################
 
-homeRegion: &HOME_REGION us-east-1
+homeRegion: &HOME_REGION us-east-2
 centralSecurityServices:
   delegatedAdminAccount: Audit
   ebsDefaultVolumeEncryption:

@@ -3,7 +3,7 @@
 # please review our network configuration reference in our README.md:             #
 # https://github.com/awslabs/landing-zone-accelerator-on-aws/blob/main/README.md  #
 ###################################################################################
-homeRegion: &HOME_REGION us-east-1
+homeRegion: &HOME_REGION us-east-2
 #####################################
 # Delete default VPCs-- use this    #
 # object to delete default VPCs in  #
