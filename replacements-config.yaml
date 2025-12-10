@@ -13,14 +13,14 @@ globalReplacements:
   # Security notification emails
   - key: SecurityHigh
     type: String
-    value: <notify-high>@example.com <----- UPDATE EMAIL ADDRESS
+    value: joelcote@joelinthecloud.com
   - key: SecurityMedium
     type: String
-    value: <notify-medium>@example.com <----- UPDATE EMAIL ADDRESS
+    value: joelcote@joelinthecloud.com
   - key: SecurityLow
     type: String
-    value: <notify-low>@example.com <----- UPDATE EMAIL ADDRESS
+    value: joelcote@joelinthecloud.com
   # Budget notification emails
   - key: BudgetEmail
     type: String
-    value: <budget-alert>@example.com <----- UPDATE EMAIL ADDRESS
+    value: joelcote@joelinthecloud.com
