@@ -29,13 +29,13 @@ workloadAccounts:
   # The "name" value DOES NOT need to match the account name
   - name: Network-Prod
     description: Network Prod
-    email: joelcote@joelinthecloud.com
+    email: networks@joelinthecloud.com
     organizationalUnit: Infrastructure/Infra-Prod
   - name: HIS-Dev
     description: HIS Dev
-    email: joelcote@joelinthecloud.com
+    email: his@joelinthecloud.com
     organizationalUnit: HIS/HIS-Non-Prod
   - name: EIS-Prod
     description: EIS Prod
-    email: joelcote@joelinthecloud.com
+    email: eis@joelinthecloud.com
     organizationalUnit: EIS/EIS-Prod
