@@ -7,7 +7,7 @@ mandatoryAccounts:
       The management (primary) account. Do not change the name field for this
       mandatory account. Note, the account name key does not need to match the
       AWS account name.
-    email: joelcote@joelinthecloud.com
+    email: joelcote+jitc@joelinthecloud.com
     organizationalUnit: Root
   - name: LogArchive
     description: >-
