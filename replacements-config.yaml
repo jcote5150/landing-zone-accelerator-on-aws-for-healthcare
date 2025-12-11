@@ -13,14 +13,14 @@ globalReplacements:
   # Security notification emails
   - key: SecurityHigh
     type: String
-    value: joelcote+high@joelinthecloud.com
+    value: jitc-high@joelinthecloud.com
   - key: SecurityMedium
     type: String
-    value: joelcote+medium@joelinthecloud.com
+    value: jitc-medium@joelinthecloud.com
   - key: SecurityLow
     type: String
-    value: joelcote+low@joelinthecloud.com
+    value: jitc-low@joelinthecloud.com
   # Budget notification emails
   - key: BudgetEmail
     type: String
-    value: joelcote+management@joelinthecloud.com
+    value: jitc-budget@joelinthecloud.com
