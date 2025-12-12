@@ -72,8 +72,14 @@ async function evaluateCompliance(props) {
       annotation: 'The IAM Role is not under any Instance Profile',
     };
   } else if (configurationItem.configuration) {
-    const existingPolicyNames = configurationItem.configuration.attachedManagedPolicies.map(p => p.policyName);
-    const existingPolicyArns = configurationItem.configuration.attachedManagedPolicies.map(p => p.policyArn);
+    const { existingPolicyNames, existingPolicyArns } = configurationItem.configuration.attachedManagedPolicies.reduce(
+      (acc, p) => {
+        acc.existingPolicyNames.push(p.policyName);
+        acc.existingPolicyArns.push(p.policyArn);
+        return acc;
+      },
+      { existingPolicyNames: [], existingPolicyArns: [] }
+    );
     if (ruleParams.AWSManagedPolicies) {
       const requiredAwsPolicies = ruleParams.AWSManagedPolicies.split(',');
       for (const requiredPolicy of requiredAwsPolicies) {
